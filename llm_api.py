@@ -2,18 +2,9 @@
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
-
-# Configure CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Replace with your allowed origins
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 # Load your fine-tuned LLM model and tokenizer from Hugging Face
 tokenizer = AutoTokenizer.from_pretrained("llmModeluser/therapy_trained_model")

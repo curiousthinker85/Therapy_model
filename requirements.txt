@@ -1,12 +1,5 @@
-torch
 fastapi
-sentencepiece
-uvicorn
 pydantic
 transformers
-flask
+streamlit
 requests
-protobuf
-tensorflow>=2.0
-jax
-flax
