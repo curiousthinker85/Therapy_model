@@ -1,3 +1,4 @@
+torch
 fastapi
 sentencepiece
 uvicorn
@@ -6,3 +7,6 @@ transformers
 flask
 requests
 protobuf
+tensorflow>=2.0
+jax
+flax
