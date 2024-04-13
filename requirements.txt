@@ -1,0 +1,12 @@
+torch
+fastapi
+sentencepiece
+uvicorn
+pydantic
+transformers
+flask
+requests
+protobuf
+tensorflow>=2.0
+jax
+flax
