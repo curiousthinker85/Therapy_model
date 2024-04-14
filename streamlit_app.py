@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 
-LLM_API_URL = "https://therapy-model-a6a945d4a423.herokuapp.com/"
+LLM_API_URL = "http://localhost:8000"
 
 st.title("LLM Web App")
 
