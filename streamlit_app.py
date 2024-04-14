@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 
-LLM_API_URL = "https://mindwell-therapy-e935275f1086.herokuapp.com/"
+LLM_API_URL = "https://therapy-model-a6a945d4a423.herokuapp.com/"
 
 st.title("LLM Web App")
 
